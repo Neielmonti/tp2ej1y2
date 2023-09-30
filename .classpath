@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/neiel/Desktop/Facultad/3er año/Segundo Cuatrimestre/BD2/tp2ej1y2/db4o-8.0.249.16098-all-java5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
