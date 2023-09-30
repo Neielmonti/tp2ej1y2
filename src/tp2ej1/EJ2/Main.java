@@ -624,10 +624,10 @@ public class Main {
 		
 	 public static void modificarDetalle (ObjectContainer db) {
 		 	
-			System.out.println("Ingrese Id Detalle A Modificar ");
+			System.out.println("Ingrese el Id de la factura del detalle a modificar ");
 			String opcion = miScanner.nextLine();
 			int idDetalle = Integer.parseInt(opcion);
-			System.out.println("Ingrese Id Producto A Modificar ");
+			System.out.println("Ingrese el Id del producto del detalle a modificar ");
 			opcion = miScanner.nextLine();
 			int idProducto = Integer.parseInt(opcion);
 			
@@ -808,11 +808,11 @@ public class Main {
 		private static void subMenuModicacionModificacionProducto(Producto producto) {
 		
 		 	System.out.println("Ingrese el Id del Producto a Modificar ");
-			System.out.println("");
 			System.out.println("1) Descripcion");
 			System.out.println("2) Cantidad ");
 			System.out.println("3) Precio");
 			System.out.println("0) Salir y confirmar");
+			System.out.println("");
 			String opcion = miScanner.nextLine();
 			switch (opcion) {
 			case "1":
